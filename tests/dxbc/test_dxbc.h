@@ -6,6 +6,7 @@ namespace dxbc_spv::tests::dxbc {
 
 void testDxbcTypeToIrType();
 void testDxbcTypeFromIrType();
+void testDxbcMinPrecisionIo();
 void testDxbcSwizzle();
 void testDxbcSampleControlToken();
 void testDxbcResourceDimToken();
@@ -29,6 +30,7 @@ void testDxbcHash();
 void runTests() {
   RUN_TEST(testDxbcTypeToIrType);
   RUN_TEST(testDxbcTypeFromIrType);
+  RUN_TEST(testDxbcMinPrecisionIo);
   RUN_TEST(testDxbcSwizzle);
   RUN_TEST(testDxbcSampleControlToken);
   RUN_TEST(testDxbcResourceDimToken);

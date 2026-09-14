@@ -134,6 +134,7 @@ public:
     switch (m_scalarType) {
       case ir::ScalarType::eMinI16: return ir::ScalarType::eI32;
       case ir::ScalarType::eMinU16: return ir::ScalarType::eU32;
+      case ir::ScalarType::eMinF10:
       case ir::ScalarType::eMinF16: return ir::ScalarType::eF32;
       default: return m_scalarType;
     }
